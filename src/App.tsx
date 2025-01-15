@@ -1,11 +1,17 @@
 import NavBar from "./components/navbar"
+import LogoHeader from './assets/logo.png'
+import BackgroundBody from './assets/background.png'
 
 function App() {
 
   return (
     <>
-      <h1 className="bg-slate-700 text-white font-bold text-3xl text-center">App</h1>
+    <main className="px-10 min-h-screen" style={{ backgroundImage : `url(${BackgroundBody})` }}>
       <NavBar/>
+      <header>
+        <img src={LogoHeader} alt="" />
+      </header>
+    </main>
     </>
   )
 }
