@@ -8,7 +8,7 @@ function App() {
     <>
     <main className="px-10 min-h-screen" style={{ backgroundImage : `url(${BackgroundBody})` }}>
       <NavBar/>
-      <header>
+      <header className="flex justify-center">
         <img src={LogoHeader} alt="" />
       </header>
     </main>
